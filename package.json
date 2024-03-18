@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "backend del proyecto rolling coffee",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Pablo López Sardi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
 }
